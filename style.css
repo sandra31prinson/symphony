@@ -21,7 +21,8 @@ body{
 
 span{
     color: #e2265f;
-
+    margin-left: 20px;
+   
 }
 
 button{
@@ -54,6 +55,20 @@ button:hover{
     font-size: small;
     color: #e2265f;
     }
+
+
+.map h5{
+
+    color:#e2265f;
+    
+}
+
+.footer p{
+
+    font-size:xx-small;
+
+}
+
 
 
 
