@@ -44,24 +44,130 @@
 
 </head>
 <body>
-    <header class="container-fluid head">
-        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+    <header class="container-fluid head p-0 m-0">
+        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 p-3">
             <div class="row">
-                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-6 d-flex justify-content-center">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex text-center justify-content-center">
                   <p> <a href="mailto:info@companyname.com"> <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
                     info@companyname.com</p>
                     </a>
                 </div>
-                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-6  d-flex justify-content-center">
-                    <p> <a href="mailto:info@companyname.com"> <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
-                        info@companyname.com</p>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex text-center justify-content-center">
+                    <p> <a href="mailto:info@companyname.com"> <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                        +97213545844, +6549848489</p>
                         </a>
                 </div>
             </div>
 
         </div>
+        <!-- <div class="col-xxl-12 col-xl-12 d-block col-md-none col-sm-none p-2 bg-dark bg-opacity-10  ">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex text-center justify-content-center">
+                  <p>  <i class="fa-regular fa-flag" style="color: #ffffff;">UAE</i>
+                    <i class="fa-solid fa-flag-checkered" style="color: #ffffff;"></i>
+                    </p>
+                    
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 pt-1 d-flex justify-content-center">
+                    <h6 class="fs-6"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                     <i class="fa-brands fa-square-twitter" style="color: #edf1f8;"></i>
+                     <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                     <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></h6> 
+                 </div>
+            </div>
+
+        </div> -->
+
+        <!--toggle part-->
+<div class="col-1 col-md-1 col-sm-1 col-xm-1 col-lg-1 toggle  
+fs-1 d-block d-xl-none d-lg-block d-md-block d-sm-block d-xm-block p-0 align-content-sm-end d-flex">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div>
+            <div class="mb-1">
+               <div>
+                    
+                    <h6><a href="">Home</a></h6>
+                    <h6><a href="">About us</a></h6>
+                    <h6><a href="">Our team</a></h6>
+                    <h6><a href="">services</a></h6>
+                    <h6><a href="">Wedding</a></h6>
+                    <h6><a href="">Photo gallery</a></h6>
+                    <h6><a href="">Testimonial</a></h6>
+                    <h6><a href="">Why choose us</a></h6>
+                    <h6><a href="">Contact</a></h6>
+                    
+                    <button class="p-4 pt-2 pb-2  mt-5 mb-2 d-flex justify-content-center
+                    my-auto mx-auto rounded-3 btn btn-outline-success "><h6>CONTRY</h6></button>
+
+               <div class="col-4 d-flex justify-content-center
+               my-auto mx-auto">
+                <a href="https://www.linkedin.com/in/sandraprinson/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sandra31prinson"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:sandraprinson31@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                
+               </div>               
+                
+                 
+               </div>
+            </div>
+            
+        </div>
+    </div>
+     <span class="d-flex align-self-end  mt-2" onclick="openNav()"> <i class="fa-solid fa-bars"></i></span>
+</div>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "100%";
+
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
 
     </header>
+
+    <!-- ----banner----- -->
+
+    <section class="container-fluid m-0 p-0">
+        <img src="images/banner.jpg" class="img-fluid m-0 p-0">
+    </section>
+
+
+<!-- --------nav ----banner----- -->
+
+<nav class="container-fluid bg-dark">
+    <div class="container">
+        
+
+        <div class="col-xxl-12 col-xl-12 
+        d-flex  justify-content-end d-lg-flex d-none d-xl-block d-lg-none d-md-none d-sm-none p-4">
+        <a class="p-3" href=""><span class="text-light">Home</span></a>
+        <a class="p-3" href="">About us</a>
+        <a class="p-3" href="">Our team</a>
+        <a class="p-3" href="">Services</a>
+        <a class="p-3" href="">Wedding</a>
+        <a class="p-3" href="">Photo gallery</a>
+        <a class="p-3" href="">Testimonial</a>
+        <a class="p-3" href="">Why choose us</a>
+        <a class="p-3" href="">contact</a>
+        
+      </div>
+
+
+
+
+      
+
+
+
+    </div>
+</nav>
+
 
 
 
@@ -160,6 +266,44 @@
             </div>
         </section>
     <script src="js/testimonial.js"></script>
+
+
+
+
+
+    <section class="container-fluid bg-secondary  p-2 map">
+        <div class="container">
+
+            
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-5 ">
+            <div class="row">
+
+               
+                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-around mb-5">
+              
+                    <img src="images/img-sec.jpg" class="img-fluid">
+               
+                </div>
+                
+
+
+
+                
+                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-around mb-5">
+              
+                    <img src="images/img-sec2.jpg" class="img-fluid">
+               
+                </div>
+                
+
+              
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+  
 
 
 
@@ -310,7 +454,7 @@
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
         <p class="text-light pt-3">&copy; 2020 www.companyname.com All Rights are Rerved </p>
         </div>
-        <div class="col-xl-6 col-lg-6 pt-4 d-flex justify-content-center">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 pt-4 d-flex justify-content-center">
            <h6 class="fs-6"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
             <i class="fa-brands fa-square-twitter" style="color: #edf1f8;"></i>
             <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
